@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthcare - Better Life</title>
+  <link rel="stylesheet" href="./style/main-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+ <div id="header"></div>
+
+  <!-- Hero -->
+ <section class="hero">
+  <div class="hero-content">
+    <h1>Accessible Healthcare, Personalized for You</h1>
+    <p>Compassionate care by professionals who listen and understand.</p>
+    <!-- Add this button below -->
+    <a href="/aboutus.html" class="btn-secondary-mr">View More</a>
+  </div>
+  <div class="hero-image">
+    <img src="./images/image_lab.png" alt="Doctor illustration">
+  </div>
+</section>
+
+  <!-- Services -->
+  <!-- Services Section -->
+<section class="lab-services" id="lab-services">
+  <h2 class="section-title"> Our Laboratory Services</h2>
+  <div class="lab-services-grid">
+    <div class="lab-service-card"><strong>Haematology</strong></div>
+    <div class="lab-service-card"><strong>Biochemistry</strong></div>
+    <div class="lab-service-card"> <strong>Microbiology</strong></div>
+    <div class="lab-service-card"><strong>Serology</strong></div>
+    <div class="lab-service-card"> <strong>Histopathology</strong> <span class="tag">Out Lab</span></div>
+    <div class="lab-service-card"> <strong>Hormone Assay</strong> <span class="tag">Out Lab</span></div>
+    <div class="lab-service-card"> <strong>ECG (Tricog)</strong> with Doctor Opinion</div>
+    <div class="lab-service-card"><strong>Online Reporting</strong></div>
+    <div class="lab-service-card"> <strong>Health Checkup Packages</strong></div>
+    <div class="lab-service-card"><strong>Home Collection</strong> <span class="note">(Senior Citizen)</span></div>
+  </div>
+</section>
+
+
+
+  <!-- Start Comment Section -->
+  <section class="comments">
+  <h2 class="section-title">🗣️ What People Say</h2>
+
+  <!-- Comment Carousel -->
+  <div class="carousel-wrapper">
+    <button id="prevBtn" class="nav-btn">‹</button>
+    <div class="carousel" id="commentList"></div>
+    <button id="nextBtn" class="nav-btn">›</button>
+  </div>
+
+  <center><button id="toggleCommentsBtn" class="btn-secondary" style="display: none;">View All Comments</button></center>
+
+  <!-- Comment Form -->
+  <div class="comment-form-wrapper">
+    <h2>💬 Leave a Comment</h2>
+    <form id="commentForm">
+      <input type="text" id="name" placeholder="Your name" required />
+      <textarea id="comment" placeholder="Your comment..." required></textarea>
+      <button type="submit" class="btn-primary">Submit</button>
+    </form>
+  </div>
+</section>
+
+  <!-- End Comment Section -->
+
+  <!-- Footer -->
+<div id="footer"></div>
+
+  <!-- Footer -->
+   <script src="/script.js"></script>
+  <script src="includes.js"></script>
+</body>
+</html>
